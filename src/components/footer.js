@@ -12,10 +12,9 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Kayla Gordon
+          Kayla Gordon, Modified by David Sharkey
         </a>
       </p>
-      <GithubButtons />
     </FooterWrap>
   )
 }

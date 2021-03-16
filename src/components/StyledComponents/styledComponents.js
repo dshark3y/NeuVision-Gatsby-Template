@@ -23,19 +23,19 @@ export const Container = styled.div`
 // 2. Index page
 export const LoginWrap = styled.div`
   width: 400px;
-  height: 600px;
-  border-radius: 50px;
+  border-radius: 25px;
   box-shadow: 5px 5px 15px #d5d2d0, -5px -5px 15px #ffffff;
+
 
   @media screen and (max-width: 768px) {
     width: auto;
   }
 `
 export const H2 = styled.h2`
-  padding-top: 150px;
+  padding-top: 25px;
 `
 export const Contents = styled.div`
-  padding: 15px;
+  padding: 50px;
 `
 
 export const Input = styled.input`
@@ -101,12 +101,12 @@ export const HeroWrap = styled.div`
   }
 `
 export const MainWrap = styled.div`
-  margin-top: 20vh;
+  margin-top: 10vh;
 `
 
 export const HeaderText = styled.h2`
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 5vh;
   color: var(--header);
 `
 
@@ -130,7 +130,6 @@ export const Feature = styled.div`
     margin: 15px auto;
   }
 `
-
 export const FeatureHeader = styled.div`
   width: max-content;
   margin: 30px auto;
@@ -153,6 +152,7 @@ export const FeatureIcon = styled.div`
     box-shadow: inset 5px 5px 15px #d5d2d0, inset -5px -5px 15px #ffffff; /* pressed */
   }
 `
+
 export const NewsLetterWrap = styled.div`
   margin: 100px auto;
   width: 550px;
@@ -326,6 +326,6 @@ export const Content = styled.section`
 // 6. Footer
 export const FooterWrap = styled.div`
   width: max-content;
-  margin: 0px auto 50px auto;
+  margin: 100px auto 50px auto;
   text-align: center;
 `

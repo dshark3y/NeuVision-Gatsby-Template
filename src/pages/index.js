@@ -30,18 +30,31 @@ const Index = ({ data, location }) => {
       <SEO title="Neu Vision" pathName="" />
       <HeroWrap>
         <LeftWrap>
-          <h1>NeuVision</h1>
-          <h4>Your Neumorphic Gatsby Template</h4>
+          <h1>David Sharkey</h1>
+          <h4>Engineer, Builder, Entrepreneur</h4>
         </LeftWrap>
         <RightWrap>
           <LoginWrap>
             <Contents>
-              <H2>Sign In</H2>
-              <p>Welcome back!</p>
-              <Input placeholder="Email" />
-              <Input placeholder="Password" type="password" />
-              <Button type="submit">Sign In</Button>
-              <Link to="/">FORGOT PASSWORD</Link>
+              <H2>My Details</H2>
+              <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+              <FeatureIcon>
+                <img
+                  src={data.lightbulb.childImageSharp.fluid.src}
+                  alt="Feature Icon"
+                />
+              </FeatureIcon>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <FeatureIcon>
+                  <img
+                    src={data.lightbulb.childImageSharp.fluid.src}
+                    alt="Feature Icon"
+                  />
+                </FeatureIcon>
+                </div>
+              </div>
             </Contents>
           </LoginWrap>
         </RightWrap>
@@ -49,7 +62,6 @@ const Index = ({ data, location }) => {
 
       <MainWrap>
         <HeaderText>NeuVision Services</HeaderText>
-
         <Row>
           <Feature>
             <FeatureHeader>
@@ -103,8 +115,6 @@ const Index = ({ data, location }) => {
             </FeatureText>
           </Feature>
         </Row>
-
-        <Newsletter />
       </MainWrap>
     </Layout>
   )
