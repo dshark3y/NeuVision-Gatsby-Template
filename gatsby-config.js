@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives and works in San Francisco building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://distracted-haibt-98ea2d.netlify.app/`,
+    siteUrl: `https://distracted-haibt-98ea2d.netlify.app`,
     social: {
       twitter: `kylemathews`,
     },
@@ -90,7 +90,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        siteUrl: `https://www.your-website.com`,
+        siteUrl: `https://distracted-haibt-98ea2d.netlify.app`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
