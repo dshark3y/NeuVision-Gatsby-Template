@@ -40,7 +40,7 @@ const SEO = ({ description, lang, meta, title, pathName }) => {
       link={[
         {
           rel: "amphtml",
-          href: `https://www.your-website.com/amp/${pathName}`,
+          href: `https://distracted-haibt-98ea2d.netlify.app/amp/${pathName}`,
         },
       ]}
       meta={[
